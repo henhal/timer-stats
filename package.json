@@ -2,9 +2,15 @@
   "name": "timer-stats",
   "version": "1.0.0",
   "description": "Measure/debug the performance of your Node.JS code by breaking down into steps, producing nanosecond precision statistics.",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "clean": "rm -rf dist && rm -f tsconfig.tsbuildinfo",
+    "prepack": "yarn clean && yarn build"
   },
   "repository": {
     "type": "git",
