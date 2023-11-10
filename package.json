@@ -1,6 +1,6 @@
 {
   "name": "timer-stats",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Measure/debug the performance of your Node.JS code by breaking down into steps, producing nanosecond precision statistics.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
