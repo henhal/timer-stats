@@ -1,0 +1,33 @@
+{
+  "name": "timer-stats",
+  "version": "1.0.0",
+  "description": "Measure/debug the performance of your Node.JS code by breaking down into steps, producing nanosecond precision statistics.",
+  "main": "dist/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henhal/timer-stats.git"
+  },
+  "keywords": [
+    "node",
+    "timer",
+    "benchmark",
+    "performance",
+    "nanosecond",
+    "timing",
+    "stopwatch",
+    "debugging"
+  ],
+  "author": "Henrik Hall",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/henhal/timer-stats/issues"
+  },
+  "homepage": "https://github.com/henhal/timer-stats#readme",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  }
+}
